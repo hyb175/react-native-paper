@@ -218,30 +218,30 @@ class Button extends React.Component<Props, State> {
     const elevation = disabled ? 0 : this.state.elevation;
 
     return (
-      <Surface
-        {...rest}
-        style={[
-          styles.button,
-          compact && styles.compact,
-          { elevation },
-          buttonStyle,
-          style,
-        ]}
+      <TouchableRipple
+        borderless
+        delayPressIn={0}
+        onPress={onPress}
+        onPressIn={this._handlePressIn}
+        onPressOut={this._handlePressOut}
+        accessibilityLabel={accessibilityLabel}
+        accessibilityTraits={disabled ? ['button', 'disabled'] : 'button'}
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={disabled ? ['disabled'] : undefined}
+        disabled={disabled}
+        rippleColor={rippleColor}
+        style={touchableStyle}
       >
-        <TouchableRipple
-          borderless
-          delayPressIn={0}
-          onPress={onPress}
-          onPressIn={this._handlePressIn}
-          onPressOut={this._handlePressOut}
-          accessibilityLabel={accessibilityLabel}
-          accessibilityTraits={disabled ? ['button', 'disabled'] : 'button'}
-          accessibilityComponentType="button"
-          accessibilityRole="button"
-          accessibilityStates={disabled ? ['disabled'] : undefined}
-          disabled={disabled}
-          rippleColor={rippleColor}
-          style={touchableStyle}
+        <Surface
+          {...rest}
+          style={[
+            styles.button,
+            compact && styles.compact,
+            { elevation },
+            buttonStyle,
+            style,
+          ]}
         >
           <View style={styles.content}>
             {icon && loading !== true ? (
@@ -274,8 +274,8 @@ class Button extends React.Component<Props, State> {
               )}
             </Text>
           </View>
-        </TouchableRipple>
-      </Surface>
+        </Surface>
+      </TouchableRipple>
     );
   }
 }

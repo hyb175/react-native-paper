@@ -178,40 +178,40 @@ exports[`renders snackbar with action button 1`] = `
         Snackbar content
       </Text>
       <View
+        accessibilityRole="button"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "transparent",
             "borderRadius": 4,
-            "borderStyle": "solid",
-            "borderWidth": 0,
-            "elevation": 0,
-            "marginHorizontal": 8,
-            "marginVertical": 6,
-            "minWidth": "auto",
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": NaN,
-              "width": 0,
-            },
-            "shadowOpacity": 0.24,
-            "shadowRadius": 0,
           }
         }
       >
         <View
-          accessibilityRole="button"
-          accessible={true}
-          isTVSelectable={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
               "borderRadius": 4,
+              "borderStyle": "solid",
+              "borderWidth": 0,
+              "elevation": 0,
+              "marginHorizontal": 8,
+              "marginVertical": 6,
+              "minWidth": "auto",
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": NaN,
+                "width": 0,
+              },
+              "shadowOpacity": 0.24,
+              "shadowRadius": 0,
             }
           }
         >

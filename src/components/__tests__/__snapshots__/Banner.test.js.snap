@@ -169,39 +169,39 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
       }
     >
       <View
+        accessibilityRole="button"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "transparent",
             "borderRadius": 4,
-            "borderStyle": "solid",
-            "borderWidth": 0,
-            "elevation": 0,
-            "margin": 4,
-            "minWidth": "auto",
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": NaN,
-              "width": 0,
-            },
-            "shadowOpacity": 0.24,
-            "shadowRadius": 0,
           }
         }
       >
         <View
-          accessibilityRole="button"
-          accessible={true}
-          isTVSelectable={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
               "borderRadius": 4,
+              "borderStyle": "solid",
+              "borderWidth": 0,
+              "elevation": 0,
+              "margin": 4,
+              "minWidth": "auto",
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": NaN,
+                "width": 0,
+              },
+              "shadowOpacity": 0.24,
+              "shadowRadius": 0,
             }
           }
         >
@@ -322,39 +322,39 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
       }
     >
       <View
+        accessibilityRole="button"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "transparent",
             "borderRadius": 4,
-            "borderStyle": "solid",
-            "borderWidth": 0,
-            "elevation": 0,
-            "margin": 4,
-            "minWidth": "auto",
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": NaN,
-              "width": 0,
-            },
-            "shadowOpacity": 0.24,
-            "shadowRadius": 0,
           }
         }
       >
         <View
-          accessibilityRole="button"
-          accessible={true}
-          isTVSelectable={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
               "borderRadius": 4,
+              "borderStyle": "solid",
+              "borderWidth": 0,
+              "elevation": 0,
+              "margin": 4,
+              "minWidth": "auto",
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": NaN,
+                "width": 0,
+              },
+              "shadowOpacity": 0.24,
+              "shadowRadius": 0,
             }
           }
         >
@@ -404,39 +404,39 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
         </View>
       </View>
       <View
+        accessibilityRole="button"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "transparent",
             "borderRadius": 4,
-            "borderStyle": "solid",
-            "borderWidth": 0,
-            "elevation": 0,
-            "margin": 4,
-            "minWidth": "auto",
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": NaN,
-              "width": 0,
-            },
-            "shadowOpacity": 0.24,
-            "shadowRadius": 0,
           }
         }
       >
         <View
-          accessibilityRole="button"
-          accessible={true}
-          isTVSelectable={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
               "borderRadius": 4,
+              "borderStyle": "solid",
+              "borderWidth": 0,
+              "elevation": 0,
+              "margin": 4,
+              "minWidth": "auto",
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": NaN,
+                "width": 0,
+              },
+              "shadowOpacity": 0.24,
+              "shadowRadius": 0,
             }
           }
         >
